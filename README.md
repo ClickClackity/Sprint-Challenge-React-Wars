@@ -24,15 +24,20 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.<br>
+A: React JS is a library that attempts to make the creations of UI's streamlined and very easy. The main way it does this is with components which can break apart large css files into easier to read components. Also the virtual DOM which allows for only updating the elements that have changed.
 
-- [ ] What does it mean to _think_ in react?
+- [ ] What does it mean to _think_ in react? <br>
+A: To break things down to smaller easier to understand components and reduce nesting thus making code cleaner, easier to digest and ultimately work with to make streamlined UI's.
 
-- [ ] Describe state.
+- [ ] Describe state.<br>
+A: an object that deteremines how a component is ultimately rendered and how it behaves thus allowing you to create dynamic and interactive components.
 
-- [ ] Describe props.
+- [ ] Describe props.<br>
+A: basically it is the property of an object. It is a way to pass data from a component to a another component i.e parent to child.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?<br>
+A: Basically something that isn't consistent with rendering or that is interrupting the data flow, they can frequently result in memory leaks. useEffect() it allows for unifcation of components after they render.
 
 ## Project Set Up
 
